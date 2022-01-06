@@ -1,0 +1,15 @@
+$bkg-color:#fff;
+$bkg-footer: #000;
+
+$margin: 50px;
+
+
+form{
+	margin-right: $margin;
+	margin-left: $margin;
+}
+
+footer{
+background-color: $bkg-footer;
+color:$bkg-color;
+}
