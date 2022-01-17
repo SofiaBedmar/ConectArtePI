@@ -3,6 +3,18 @@ $bkg-footer: #000;
 
 $margin: 50px;
 
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
+$display-font-weight: 300;
+$display-line-height: $headings-line-height;
+
 
 form{
 	margin-right: $margin;
@@ -12,4 +24,6 @@ form{
 footer{
 background-color: $bkg-footer;
 color:$bkg-color;
+display: flex;
+justify-content: center;
 }
