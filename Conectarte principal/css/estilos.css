@@ -52,3 +52,15 @@ body{
     max-height: 100%;
 	bottom: -5px;
 }
+
+.form-position{
+	margin: 30px 20px 0 20px;
+}
+
+.text-center{
+	margin: 60px;
+}
+
+.cards-publicaciones{
+	margin: -40px 20px 0 20px;
+}
