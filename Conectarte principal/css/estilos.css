@@ -2,20 +2,6 @@ body{
 	background-color: #fff;
 }
 
-.position{
-	position: relative;
-	display: inline-block;
-}
-
-/*
-.card-img-top{
-	position: relative;
-	display: inline-block;	
-	
-/*	clip-path: inset(0 0 20% 0);
-*/
-
-
 .titulo{
 	color: black;
 	font-size: 150px;
@@ -39,9 +25,6 @@ body{
 	margin: 10px 20px 0 20px;
 }
 
-/* form {
-	margin-right: 50px;
-*/
 
 .card{
 	top: 30px;
@@ -55,10 +38,6 @@ body{
 
 .form-position{
 	margin: 30px 20px 0 20px;
-}
-
-.titulo-publicaciones{
-	margin: 60px;
 }
 
 .cards-publicaciones{
@@ -76,16 +55,24 @@ body{
 	max-height: 60px;
 }
 
-/* .texto-encima{
-    position: absolute;
-    top: 300px;
-    left: 750px;
-	transform: translate(-50%, -50%);
+.carouselContainer{
+	z-index: 1;
+	margin-top: -243px;
 }
 
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
+.titleContainer{
+	position: relative;
+	background-color: rgba(226, 212, 212, 0.719);
+	z-index: 2;
+	top: 110px;
+	padding: 40px;
+}
+
+.boton-contenedor{
+	margin-right: 15px;
+}
+
+
+.margin{
+	margin-bottom: 50px;
+}

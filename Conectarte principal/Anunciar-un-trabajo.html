@@ -12,7 +12,6 @@
   </head>
   <body>
     <!--Navbar-->
-    </nav>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">ConectArte</a>
@@ -31,12 +30,23 @@
               <a class="nav-link" href="Publicaciones.html">Publicaciones</a>
             </li>
           </ul>
-          <a href="Iniciar-sesion.html" class="btn btn-outline-light">Iniciar sesión</a>
         </div>
       </div>
+      <div class="boton-contenedor">
+        <div class="dropdown">
+          <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Iniciar sesión
+           </button>
+           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+             <li><a class="dropdown-item" href="./Iniciar-sesion.html">Iniciar sesión</a></li>
+             <li><a class="dropdown-item" href="./Registrarse.html">Registrarse</a></li>
+           </ul>
+         </div>
+       </div> 
     </nav>
 
-<!--Titulo-->
+<div class="margin">
+ <!--Titulo-->
     <figure class="text-center">
       <blockquote class="blockquote">
         <h1 class="display-4">ANUNCIAR UN TRABAJO</h1>
@@ -160,7 +170,7 @@
       <button type="submit" class="btn btn-outline-dark">Anunciar</button>
     </div>
   </form>
-
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

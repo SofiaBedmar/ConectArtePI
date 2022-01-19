@@ -12,47 +12,60 @@
   </head>
   <body>
     <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html">ConectArte</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="Encontrar-un-trabajo.html">Encontrar un trabajo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Anunciar-un-trabajo.html">Anunciar un trabajo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Publicaciones.html">Publicaciones</a>
-          </li>
-        </ul>
-        <a href="Iniciar-sesion.html" class="btn btn-outline-light">Iniciar sesión</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">ConectArte</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Encontrar-un-trabajo.html">Encontrar un trabajo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Anunciar-un-trabajo.html">Anunciar un trabajo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Publicaciones.html">Publicaciones</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
+     <div class="boton-contenedor">
+       <div class="dropdown">
+         <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+           Iniciar sesión
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="./Iniciar-sesion.html">Iniciar sesión</a></li>
+            <li><a class="dropdown-item" href="./Registrarse.html">Registrarse</a></li>
+          </ul>
+        </div>
+      </div> 
+    </nav>   
+     
 
  <div class="position">
 
     <!--Título-->
-    <figure class="text-center">
-          <blockquote class="blockquote">
-            <h1 class="display-1">ConectArte</h1>
-          </blockquote>
-    <!--Párrafo-->
+    <div class="titleContainer">
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <h1 class="display-1">ConectArte</h1>
+        </blockquote>
+        <!--Párrafo-->
         <figcaption>  
           <p class="lead">
             La mejor red de empleos para profesionales del reparto, del equipo y de la creatividad
           </p>
         </figcaption>
-     </figure>
+      </figure>
+    </div>
   
     
   <!--Carousel-->
+  <div class="carouselContainer">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -74,8 +87,9 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div> 
-</div> 
-
+  </div>
+  </div> 
+  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
